@@ -367,7 +367,8 @@ client.on("message", message => {
   message.guild.member(user).ban(7, user);
 
 message.channel.send(`**:white_check_mark: ${user.tag} banned from the server ! :airplane: **  `)
-	  
+
+	  });
 
 	  client.on('message', msg =>{
     let message=msg;
