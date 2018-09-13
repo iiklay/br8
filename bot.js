@@ -392,13 +392,12 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
  
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '1';
+const prefix = '$';
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
  
       client.on('ready', () => {
-              client.user.setActivity("1play | br8", {type: 'LISTENING'});
      
       });
 /*
@@ -592,7 +591,6 @@ function isYoutube(str) {
      }
     });
  
- client.login(process.env.BOT_TOKEN);
 
 
                         
