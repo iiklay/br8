@@ -449,7 +449,7 @@ client.on('message',async message => {
   }
 });
 client.on('message', function(msg) {
-    const prefix = '+'
+    const prefix = '$'
     if(msg.content.startsWith (prefix  + 'server')) {
       let embed = new Discord.RichEmbed()
       .setColor('RANDOM')
